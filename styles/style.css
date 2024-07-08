@@ -60,7 +60,7 @@ main .about-deliveries, .flowers-featured{
 .featured-text{
     width: 400px;
     text-align: center;
-    margin: 0 auto;
+    margin: 100px auto 70px auto;
 }
 .featured-text h1{
     font-size: 24px;
@@ -124,7 +124,7 @@ main .about-deliveries, .flowers-featured{
 /* Hot Deal ! Sale Up To 25% Off */
  .deals-section{
     background-color: rgba(229, 84, 115, 0.05);
-    padding: 230px 0;
+    padding: 100px 0;
     margin: 100px 0;
 }
 .deals-all-content{
