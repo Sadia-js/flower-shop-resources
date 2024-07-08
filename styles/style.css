@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+main .about-deliveries, .flowers-featured{
+    max-width: 67%;
+    margin: 0 auto;
+}
+/* header styles */
+.header-content{
+    height: 570px;
+    background-color: rgba(229, 84, 115, 0.1);
+}
+.hero-content{
+    width: 67%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.banner-text-container{
+    max-width: 474px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.banner-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+.banner-description{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.6);
+}
+.btn{
+    color: white;
+    background-color: rgb(229, 84, 115);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 14px;
+    border-radius: 8px;
+    max-width: 100px;
+    border: none;
+}
+.banner-image{
+    height: 570px;
+    max-width: 425px;
+    padding-top: 20px;
+}
+/* Our Featured Flowers */
+.featured-text{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+.featured-text h1{
+    font-size: 24px;
+    font-weight: 800;
+}
+.featured-text p{
+    margin: 15px 0;
+}
+.flowers-selection{
+    display: flex;
+    gap: 10px;
+}
+.flower{
+    width: 33%;
+}
+.flower p{
+    text-align: center;
+    margin: 13px 0;
+}
+.flower-image-background{
+    max-width: 90%;
+    border-radius: 50% 50% 0 0;
+
+}
+.first-img{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.second-img{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.third-img{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.flower-image{
+    text-align: center;
+    height: 250px;
+}
+.flower-image img{
+    height: 100%;
+    text-align: center;
+    padding-top: 70px;
+}
+/* Delivery Support styles */
+.about-deliveries{
+    margin-top: 60px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+.details-about-service{
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    margin: 100px;
+}
+.service-image{
+    max-width: 30px;
+}
+/* Hot Deal ! Sale Up To 25% Off */
+ .deals-section{
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 230px 0;
+    margin: 100px 0;
+}
+.deals-all-content{
+    width: 67%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.dealing-clients{
+    width: 398px;
+}
+
+.deal-img{
+    width: 213px;
+}
+.deal-img img{
+    width: 100%;
+}
+.deal-texts h1{
+    font-size: 30px;
+    font-weight: 800px;
+}
+/* Instagram */
+.instagram-section{
+    width: 67%;
+    margin: 0 auto;
+}
+.instagram-texts{
+    width: 594px;
+    margin: auto;
+    text-align: center;
+}
+.instagram-texts p{
+    margin: 10px;
+    color: rgba(39, 39, 39, 0.6);
+}
+.instagram-images{
+    width: 100%;
+    height: 260px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.instagram-images img{
+    width: 100%;   
+    height: 90%;
+}
+/* Get The Latest Deals */
+.latest-deals{
+    background-image: url('../images/sunflower.png');
+    width: 67%;
+    height: 301px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.latest-title{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+.latest-deals p{
+    font-size: 14px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.6);
+}
+.latest-deals  form{
+    margin-top: 30px;
+}
+#email{
+    width: 469px;
+    padding: 17px 315px 17px 22px;
+    border: none;
+    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#button{
+    font-size: 13px;
+    font-weight: bold;   
+    padding: 17px 18px 17px 18px;
+    color: white;
+    background-color: rgb(229, 84, 115);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -6px;
+}
+/* footer-section */
+.footer-section{
+    height: 350px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.footer-section span{
+    color: rgb(229, 84, 115);
+}
+
+.footer-section p{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+}
+.footer-section  small{
+    color: rgba(255, 255, 255, 0.4);
+}
